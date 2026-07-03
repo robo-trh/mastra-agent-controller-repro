@@ -1,0 +1,22 @@
+{
+  "name": "mastra-agentcontroller-requestcontext-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: @mastra/server AgentController HTTP routes drop the server middleware requestContext.",
+  "scripts": {
+    "repro": "tsx src/repro.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "1.48.0",
+    "@mastra/server": "1.48.0",
+    "@mastra/deployer": "1.48.0",
+    "mastra": "1.17.0",
+    "ai": "6.0.217",
+    "zod": "4.2.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
